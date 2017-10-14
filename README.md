@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - NodeJS (tested on v6.10.0)
 
-## How to use?
+## Setting up the project
 
 1. Run:
 > npm install
@@ -16,6 +16,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > ng serve
 
 Open up http://localhost:4200, and play the piano!
+
+## How to play the piano
+You can use the numeric upper keys 1 - 9 to play the first notes.
+In order to play the full piano keyboard you will have to use the mouse.
 
 ## Known issues
 
