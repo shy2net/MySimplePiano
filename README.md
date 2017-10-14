@@ -4,6 +4,7 @@ A simple Angular 4 piano.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
 ## Requirements
+
 - NodeJS (tested on v6.10.0)
 
 ## How to use?
@@ -15,3 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > ng serve
 
 Open up http://localhost:4200, and play the piano!
+
+## Known issues
+
+the f4 key sound is not correct (plays a long piano riff instead).
