@@ -2,12 +2,13 @@ import { PianoKeyComponent } from '../components/piano-key/piano-key.component';
 import { Inject, Injectable, keyframes } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 
+// This service binds the keydown and keyup keys, and allows playing the keyboard using the 1 - 9 upper numeric keys.
 @Injectable()
 export class PianoPlayService {
-    // The piano keys are being added by the orderer they appear on the screen
+    // The piano keys are being added by the order they appear on the screen
     pianoKeys:PianoKeyComponent[] = [];
 
-    // The keycodes (0 - 9) we expect from the user to play on the piano
+    // The keycodes (1 - 9) we expect from the user to play on the piano
     startKeycode = 49;
     endKeycode = 57;
 
