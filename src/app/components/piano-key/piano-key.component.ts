@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PianoPlayService } from '../../services/piano.play.service';
 
+
+// A single piano key which is able to be played via the mouse or using the keys
 @Component({
   selector: 'app-piano-key',
   templateUrl: './piano-key.component.html',

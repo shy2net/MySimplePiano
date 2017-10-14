@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+// A single piano octave with it's associated keys
 @Component({
   selector: 'app-piano-octave',
   templateUrl: './piano-octave.component.html',
